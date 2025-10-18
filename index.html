@@ -10,10 +10,14 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo">DP</div>
+                <div class="logo">
+                    <span class="logo-bracket">&lt;</span>
+                    <span class="logo-text">DP</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#skills">Expertise</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -23,28 +27,82 @@
     </header>
 
     <div class="hero">
+        <div class="grid-overlay"></div>
         <div class="container">
-            <h1>Damary Patterson</h1>
-            <p>Aspiring Software Engineer</p>
-            <p class="tagline">Excellence is my Hallmark</p>
-            <a href="#contact" class="btn">Get In Touch</a>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="title-wrapper">
+                        <h1>Damary Patterson</h1>
+                        <div class="title-line"></div>
+                    </div>
+                    <p class="hero-subtitle">Software Engineer & Full-Stack Developer</p>
+                    <p class="tagline">Excellence is my Hallmark</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <img src="profile.jpg" alt="Damary Patterson">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <section id="about">
         <div class="container">
-            <h2>About Me</h2>
+            <h2><span class="section-number">01.</span> About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a passionate software engineering student at the University of Technology, Kingston, with a strong foundation in full-stack development, database management, and AI integration. My journey in tech has been marked by academic excellence, including being recognized as the Top Management of Business Student in Jamaica and placing 2nd in the Caribbean.</p>
-                    <p style="margin-top: 1rem;">With hands-on experience from internships at Paramount Trading Ltd and Rusal Bauxite, combined with diverse work experiences in customer service leadership, I bring a unique blend of technical expertise and interpersonal skills to every project I undertake.</p>
+                    <p>I am a dedicated software engineering professional pursuing a Bachelor of Science degree at the University of Technology, Kingston, specializing in advanced full-stack development, enterprise database architecture, and artificial intelligence integration.</p>
+                    <p>My expertise spans multiple programming paradigms and modern development frameworks, with a proven track record of delivering scalable solutions. I have been recognized as the Top Management of Business Student in Jamaica and secured 2nd place in the Caribbean, demonstrating exceptional analytical and strategic capabilities.</p>
+                    <p>Through strategic internships at Paramount Trading Ltd and Rusal Bauxite, combined with leadership roles in customer service operations, I have cultivated a unique synthesis of technical mastery and professional excellence that drives innovative solutions in every project.</p>
                 </div>
-                <div>
-                    <h3 style="color: #667eea; margin-bottom: 1rem;">Education</h3>
-                    <p><strong>University of Technology, Kingston</strong></p>
-                    <p>BSc. Computer Science & IT (Expected 2026)</p>
-                    <p style="margin-top: 1rem;"><strong>St Jago High School</strong></p>
-                    <p>CAPE & CXC - Multiple Grade 1s</p>
+                <div class="education-section">
+                    <h3>Education & Credentials</h3>
+                    
+                    <div class="education-item">
+                        <h4>University of Technology, Kingston</h4>
+                        <p class="degree">Bachelor of Science - Computer Science & Information Technology</p>
+                        <p class="date">August 2020 - October 2026 (Expected)</p>
+                        <p class="coursework">Core Competencies: Database Management, Software Engineering, Web Development, Algorithm Design, Operating Systems</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h4>St Jago High School, Spanish Town</h4>
+                        <p class="degree">CAPE & CXC Qualifications</p>
+                        <p class="date">July 2013 - June 2020</p>
+                        
+                        <div class="grades-section">
+                            <p class="grades-title">CAPE Results:</p>
+                            <ul class="grades-list">
+                                <li>Economics Unit 1 - Grade 2</li>
+                                <li>Economics Unit 2 - Grade 1</li>
+                                <li>Management of Business Unit 1 - Grade 1</li>
+                                <li>Management of Business Unit 2 - Grade 2</li>
+                                <li>Computer Science Unit 1 - Grade 1</li>
+                                <li>Computer Science Unit 2 - Grade 3</li>
+                                <li>Caribbean Studies - Grade 2</li>
+                                <li>Communication Studies - Grade 2</li>
+                            </ul>
+
+                            <p class="grades-title">CXC Results:</p>
+                            <ul class="grades-list">
+                                <li>Mathematics - Grade 1</li>
+                                <li>Information Technology - Grade 1</li>
+                                <li>English Language - Grade 1</li>
+                                <li>Spanish - Grade 1</li>
+                                <li>Office Administration - Grade 1</li>
+                                <li>Principles of Business - Grade 1</li>
+                                <li>Principles of Accounts - Grade 1</li>
+                                <li>Social Studies - Grade 1</li>
+                                <li>English Literature - Grade 2</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -52,44 +110,50 @@
 
     <section id="skills">
         <div class="container">
-            <h2>Technical Skills</h2>
+            <h2><span class="section-number">02.</span> Technical Expertise</h2>
             <div class="skills-grid">
                 <div class="skill-card">
-                    <h3>Backend & Database</h3>
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Engineering</h3>
                     <ul>
-                        <li>SQL & MySQL</li>
-                        <li>Database Design</li>
-                        <li>REST APIs</li>
-                        <li>Python</li>
-                        <li>Java, C#, C++</li>
+                        <li>Advanced SQL & MySQL</li>
+                        <li>Database Architecture</li>
+                        <li>RESTful API Design</li>
+                        <li>Python Development</li>
+                        <li>Java, C#, C++ Systems</li>
                     </ul>
                 </div>
                 <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
                     <h3>Frontend Development</h3>
                     <ul>
-                        <li>React</li>
-                        <li>Angular.js</li>
-                        <li>HTML & CSS</li>
-                        <li>JavaScript</li>
+                        <li>React.js Ecosystem</li>
+                        <li>Angular.js Framework</li>
+                        <li>Modern HTML5 & CSS3</li>
+                        <li>JavaScript ES6+</li>
+                        <li>Responsive Design</li>
                     </ul>
                 </div>
                 <div class="skill-card">
-                    <h3>Tools & Platforms</h3>
+                    <div class="skill-icon">🔧</div>
+                    <h3>DevOps & Tools</h3>
                     <ul>
-                        <li>Git & GitHub</li>
-                        <li>Microsoft Azure</li>
-                        <li>Windows & Linux</li>
-                        <li>Office Suite</li>
-                        <li>.NET 8</li>
+                        <li>Git Version Control</li>
+                        <li>GitHub Workflows</li>
+                        <li>Microsoft Azure Cloud</li>
+                        <li>Windows & Linux Systems</li>
+                        <li>.NET 8 Framework</li>
                     </ul>
                 </div>
                 <div class="skill-card">
-                    <h3>AI & Automation</h3>
+                    <div class="skill-icon">🤖</div>
+                    <h3>AI & Innovation</h3>
                     <ul>
                         <li>Machine Learning Integration</li>
-                        <li>GPT-3 Integration</li>
+                        <li>GPT-3/4 Implementation</li>
                         <li>Process Automation</li>
-                        <li>LLM APIs</li>
+                        <li>LLM API Integration</li>
+                        <li>Intelligent Systems</li>
                     </ul>
                 </div>
             </div>
@@ -98,32 +162,70 @@
 
     <section id="experience">
         <div class="container">
-            <h2>Professional Experience</h2>
+            <h2><span class="section-number">03.</span> Professional Experience</h2>
             <div class="experience-timeline">
                 <div class="experience-item">
-                    <h3>Lead Barista - Holland America Princess, Alaska</h3>
+                    <div class="experience-header">
+                        <h3>Lead Barista</h3>
+                        <span class="company">Holland America Princess, Alaska</span>
+                    </div>
                     <p class="date">May 2023 - Sep 2023 | May 2025 - Sep 2025</p>
-                    <p>Led beverage service operations for 200+ guests daily, trained and supervised 9 baristas, and reduced waste by 15% through efficient inventory management.</p>
+                    <ul class="experience-details">
+                        <li>Orchestrated daily beverage service operations for high-volume cruise ship café, consistently serving 200+ guests daily</li>
+                        <li>Led and mentored a team of 9 baristas, implementing quality control standards and customer satisfaction protocols</li>
+                        <li>Optimized inventory management systems, achieving 15% waste reduction through strategic stock management</li>
+                        <li>Maintained exceptional service standards in fast-paced, multicultural environment</li>
+                    </ul>
                 </div>
                 <div class="experience-item">
-                    <h3>VM Fete Ambassador - Victoria Mutual, Jamaica</h3>
+                    <div class="experience-header">
+                        <h3>VM Fete Ambassador</h3>
+                        <span class="company">Victoria Mutual, Jamaica</span>
+                    </div>
                     <p class="date">Jan 2024 - Dec 2024</p>
-                    <p>Engaged with customers, promoted financial products, and collaborated with marketing team to execute promotional campaigns and social media content.</p>
+                    <ul class="experience-details">
+                        <li>Strategically engaged with customers to promote VM financial products and services</li>
+                        <li>Collaborated with marketing team to execute promotional campaigns and develop social media content</li>
+                        <li>Delivered exceptional customer service while collecting actionable feedback to enhance brand engagement</li>
+                    </ul>
                 </div>
                 <div class="experience-item">
-                    <h3>Administrative Assistant - Sagicor, Kingston</h3>
+                    <div class="experience-header">
+                        <h3>Administrative Assistant</h3>
+                        <span class="company">Sagicor, Kingston</span>
+                    </div>
                     <p class="date">Jan 2023 - Apr 2023</p>
-                    <p>Provided comprehensive administrative support, coordinated meetings, and managed document filing systems with attention to detail.</p>
+                    <ul class="experience-details">
+                        <li>Provided comprehensive administrative support to senior management team</li>
+                        <li>Coordinated high-level meetings, maintained executive calendars, and prepared professional correspondence</li>
+                        <li>Managed document filing systems and database records with meticulous attention to detail</li>
+                    </ul>
                 </div>
                 <div class="experience-item">
-                    <h3>IT Specialist Intern - Paramount Trading Ltd</h3>
+                    <div class="experience-header">
+                        <h3>IT Specialist (Intern)</h3>
+                        <span class="company">Paramount Trading Ltd</span>
+                    </div>
                     <p class="date">April 2022 - Aug 2022</p>
-                    <p>Provided technical support for 50+ employees, assisted in network maintenance, and documented IT procedures.</p>
+                    <ul class="experience-details">
+                        <li>Delivered comprehensive technical support for 50+ employees, resolving complex hardware and software issues</li>
+                        <li>Assisted in network infrastructure maintenance and troubleshooting connectivity challenges</li>
+                        <li>Documented IT procedures and created user guides for common technical issues</li>
+                        <li>Supported database management operations and backup protocols</li>
+                    </ul>
                 </div>
                 <div class="experience-item">
-                    <h3>Application Support Intern - Rusal Bauxite, Ewarton</h3>
+                    <div class="experience-header">
+                        <h3>Application Support (Intern)</h3>
+                        <span class="company">Rusal Bauxite, Ewarton</span>
+                    </div>
                     <p class="date">May 2021 - Sep 2021</p>
-                    <p>Provided application support for ERP systems, documented support tickets, and maintained knowledge base.</p>
+                    <ul class="experience-details">
+                        <li>Provided enterprise application support for ERP systems</li>
+                        <li>Assisted users with software navigation and resolved application errors</li>
+                        <li>Maintained comprehensive knowledge base and documented support tickets</li>
+                        <li>Collaborated with IT team on system updates and user training sessions</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -131,80 +233,98 @@
 
     <section id="projects">
         <div class="container">
-            <h2>Featured Projects</h2>
+            <h2><span class="section-number">04.</span> Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
+                    <div class="project-number">01</div>
                     <h3>File Integrity Monitor System</h3>
-                    <p>Real-time file monitoring system with hash-based integrity checks, email alerts, and web interface for management.</p>
+                    <p>Enterprise-grade security solution featuring real-time file monitoring with hash-based integrity verification, automated email alerts, and comprehensive event logging through an intuitive web interface.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">HTML</span>
                         <span class="tech-tag">Security</span>
+                        <span class="tech-tag">Automation</span>
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-number">02</div>
                     <h3>TicketLang</h3>
-                    <p>Natural language ticket booking system with GPT-3 integration, deployed on Microsoft Azure.</p>
+                    <p>Innovative natural language processing system for ticket booking with GPT-3 integration, featuring intelligent error handling and deployed on Microsoft Azure cloud infrastructure.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">JavaScript</span>
                         <span class="tech-tag">Azure</span>
                         <span class="tech-tag">GPT-3</span>
+                        <span class="tech-tag">NLP</span>
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-number">03</div>
                     <h3>DNA Analyzer</h3>
-                    <p>C# application demonstrating Deterministic Finite Automata for DNA pattern detection and analysis.</p>
+                    <p>Sophisticated C# application implementing Deterministic Finite Automata for advanced DNA pattern detection, featuring visual highlighting and performance optimization analysis.</p>
                     <div class="project-tech">
                         <span class="tech-tag">C#</span>
                         <span class="tech-tag">Algorithms</span>
+                        <span class="tech-tag">DFA</span>
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-number">04</div>
                     <h3>Sophisticated File Browser</h3>
-                    <p>Advanced file management tool with AI-powered summaries and cloud integration using BFS algorithms.</p>
+                    <p>Advanced file management system with AI-powered document summarization, cloud integration, and optimized BFS algorithms for efficient directory traversal across multiple storage platforms.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Java</span>
-                        <span class="tech-tag">AI</span>
+                        <span class="tech-tag">AI/ML</span>
                         <span class="tech-tag">Azure</span>
+                        <span class="tech-tag">LLM</span>
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-number">05</div>
                     <h3>Custom Shell Script</h3>
-                    <p>Cross-platform CLI utility for automating file system tasks, built with .NET 8.</p>
+                    <p>Cross-platform command-line utility built with .NET 8, featuring comprehensive file system automation, GitHub integration, and seamless operation across Windows and Linux environments.</p>
                     <div class="project-tech">
                         <span class="tech-tag">C#</span>
                         <span class="tech-tag">.NET 8</span>
                         <span class="tech-tag">CLI</span>
+                        <span class="tech-tag">DevOps</span>
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-number">06</div>
                     <h3>Academic Probation System</h3>
-                    <p>Educational management system for monitoring student performance with role-based access control.</p>
+                    <p>Comprehensive educational management platform with multi-level access control, GPA tracking, and role-based authentication serving students, lecturers, and administrators.</p>
                     <div class="project-tech">
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Prolog</span>
+                        <span class="tech-tag">Database</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="awards" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+    <section id="awards">
         <div class="container">
-            <h2 style="color: white;">Awards & Recognition</h2>
+            <h2><span class="section-number">05.</span> Awards & Recognition</h2>
             <div class="awards">
                 <div class="award-card">
-                    <h3>🏆 Top Student in Jamaica</h3>
-                    <p>Management of Business (2020)</p>
+                    <div class="award-icon">🏆</div>
+                    <h3>Top Student in Jamaica</h3>
+                    <p>Management of Business</p>
+                    <span class="award-year">2020</span>
                 </div>
                 <div class="award-card">
-                    <h3>🥈 2nd Place Caribbean</h3>
-                    <p>Management of Business (2020)</p>
+                    <div class="award-icon">🥈</div>
+                    <h3>2nd Place Caribbean</h3>
+                    <p>Management of Business</p>
+                    <span class="award-year">2020</span>
                 </div>
                 <div class="award-card">
-                    <h3>⭐ Honor Roll</h3>
-                    <p>2014-2020</p>
+                    <div class="award-icon">⭐</div>
+                    <h3>Academic Honor Roll</h3>
+                    <p>Consistent Excellence</p>
+                    <span class="award-year">2014-2020</span>
                 </div>
             </div>
         </div>
@@ -212,19 +332,22 @@
 
     <section id="contact">
         <div class="container">
-            <h2>Let's Connect</h2>
-            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">
-                I'm always open to discussing new opportunities and collaborations
+            <h2><span class="section-number">06.</span> Let's Connect</h2>
+            <p class="contact-intro">
+                I am available for software engineering opportunities, consulting projects, and professional collaborations. Let's discuss how we can work together to create exceptional solutions.
             </p>
             <div class="contact-links">
                 <a href="mailto:damaryp90@gmail.com" class="contact-link">
-                    📧 Email Me
+                    <span class="contact-icon">📧</span>
+                    <span>damaryp90@gmail.com</span>
                 </a>
                 <a href="https://github.com/DamaryPatterson" class="contact-link" target="_blank">
-                    💻 GitHub
+                    <span class="contact-icon">💻</span>
+                    <span>GitHub Portfolio</span>
                 </a>
                 <a href="tel:+18762974955" class="contact-link">
-                    📱 (876) 297-4955
+                    <span class="contact-icon">📱</span>
+                    <span>(876) 297-4955</span>
                 </a>
             </div>
         </div>
@@ -232,9 +355,9 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Damary Patterson. Excellence is our Hallmark.</p>
+            <p>Designed & Built by Damary Patterson</p>
+            <p class="footer-tagline">Excellence is my Hallmark</p>
         </div>
     </footer>
 </body>
-
 </html>
